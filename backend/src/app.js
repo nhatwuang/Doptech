@@ -61,12 +61,14 @@ const allowedOrigins = (
 app.use(
   cors({
     origin: (origin, callback) => {
-      // Cho phép request không có Origin (ví dụ: Postman, server-to-server)
-      if (!origin || allowedOrigins.includes(origin)) {
+      if (!origin || allowedOrigins.includes(origin.replace(/\/+$/, ""))) {
         return callback(null, true);
       }
 
-      return callback(new Error("Origin not allowed by CORS"));
+      console.error("[CORS BLOCKED] Origin:", origin);
+      console.error("[CORS ALLOWED]", allowedOrigins);
+
+      return callback(null, false);
     },
     credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
