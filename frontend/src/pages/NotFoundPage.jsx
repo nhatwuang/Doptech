@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';export default function NotFoundPage(){return <div className="container py-5 text-center"><div style={{fontSize:'7rem',fontWeight:900,color:'#0b6bff'}}>404</div><h2>Trang không tồn tại</h2><p className="text-secondary">Đường dẫn bạn mở không có trong DopTech.</p><Link className="btn btn-primary" to="/">Về trang chủ</Link></div>}

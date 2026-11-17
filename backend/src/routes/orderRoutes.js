@@ -1,0 +1,2 @@
+const router=require('express').Router();const c=require('../controllers/orderController');const {authenticateToken,authorizeRoles}=require('../middleware/auth');
+router.use(authenticateToken);router.post('/checkout',authorizeRoles('CUSTOMER'),c.checkout);router.get('/mine',authorizeRoles('CUSTOMER'),c.mine);router.get('/:id',c.detail);router.post('/:id/cancel',authorizeRoles('CUSTOMER'),c.cancel);module.exports=router;

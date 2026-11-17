@@ -1,0 +1,248 @@
+[
+  {
+    "path": "backend/database/migrations/001_consistency.sql",
+    "originalHash": null,
+    "newHash": "7fdad9e19992fd6e4540e6c01f841ba206676e3cedb1a13e6a96be2f19f88a4a",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/database/schema.sql",
+    "originalHash": "0e451b36ff21182f29e2201649a918c7e773077c01b609ca201bcb6a8d971d67",
+    "newHash": "386a7c654b70e9f2000e67eebbc79c69140565b77e08200ca9b948e87746c345",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/scripts/migrate-db.js",
+    "originalHash": null,
+    "newHash": "cdf953745f0e8139bdf3432215b5ef78d73781ed2179529ca4e4a6b611487d80",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/ai/recommender.js",
+    "originalHash": "c20bf86a12a0a6527deb38abe4292e8271cdf2be44313650385d64987e9892aa",
+    "newHash": "0536bcf7de985a324e61ffc69354ecaba227cc5afcffe3f6f90e8c03be995541",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/config/security.js",
+    "originalHash": null,
+    "newHash": "88eb55faa5225e88ee302d126769627a00b2e8923b9d1b802bf975c0052ff333",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/controllers/authController.js",
+    "originalHash": "d6b9f49ddb0ad89a2c9b4abd565ff7fa908e447df4cb4e7332ab7c2959622f1a",
+    "newHash": "cbf525bdb1efbcb788d34bef8a5bb773cb748670209aeb47c67a4ba9815ccf7f",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/controllers/orderController.js",
+    "originalHash": "799b9006bdcaf8af56ade02426d097f8c138f9114e241dc5e89e2e77c2b1ae37",
+    "newHash": "06e1276ff7ea6642b31c44596ef1be38c2184b4b244a7dbb6ac4dfefa682d93b",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/middleware/auth.js",
+    "originalHash": "3d3362fd6ce236f4de6c3adcf046f298c47a72a9675cba23120f470a57b74ba5",
+    "newHash": "e748163d25187b38a680e1c588233a9e9e7db0cee4192a5485d9ccba64e5f8d6",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/middleware/errorHandler.js",
+    "originalHash": "76728469cbf44c020adac17d151c1e1532e77ecba765c563d6d1033e8c3ec3dd",
+    "newHash": "e84079175bbc8702c4189d99dc307a27068dd3d6d9c46169d937c6e2da72fe10",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/middleware/rateLimit.js",
+    "originalHash": null,
+    "newHash": "b00a119b5469dc629b4ea01c513412a6f7e34e94a0e7a37d4e9767799e334f7f",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/routes/adminRoutes.js",
+    "originalHash": "59b4d35f7d7e2a4f477b3eb056e6c519846ca51435d39b32295871cfb4c2a90e",
+    "newHash": "89158b527f438552f5f97870823725fcb9de480d504e37279e1668bcf22617ef",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/routes/aiRoutes.js",
+    "originalHash": "d83c87e1c80155ab9a5b2b2411d9d9c58612fea85947f6580c2467ab5aafe9b8",
+    "newHash": "6f01bda9e88dd0846972945bf4cb66533028d67d41c17ef9629aa0f8ac7c0750",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/routes/authRoutes.js",
+    "originalHash": "c583baa2154456be461e1768e325477146b5dcbba08124e01e0f8584324c3c3b",
+    "newHash": "5ff49b471408025e970f51ea0f46a436f773aecb03d89866c95dcb7540bbe5fb",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/routes/cartRoutes.js",
+    "originalHash": "d3042844297be740553a19bb55ab0f8be3dabe9ba4871fbadf21ca463e550f44",
+    "newHash": "c9f5faa51a1d05c7168de9f2f7cac79a15b44ddddde40348c751cf98fa57fe6f",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/routes/couponRoutes.js",
+    "originalHash": "13ca6f74885008f17641d8f347df673793e7dc404d8ef0700d01d12616ebb492",
+    "newHash": "7beafb8915294976da397413cad63f2814af84aeb6f84c25aa46f8d85248c47e",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/routes/dashboardRoutes.js",
+    "originalHash": "4d5329458b97785513ee3e6fe893506f1fdd56876962166d94a62275d13c72e2",
+    "newHash": "9029ceaa265e516ad224d070fdb83a4455313b25eedf75ff18b8524f455db51e",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/routes/inventoryRoutes.js",
+    "originalHash": "17d300ae57ce3e1c6de93ce895ec6adc86f4daa9210b96a7371d6ba89dd5520a",
+    "newHash": "450f8a9b5f076e43c1c8a19f4b39069920bc1c7438ccb796f03a83135954e262",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/routes/managementRoutes.js",
+    "originalHash": null,
+    "newHash": "66c3d198ce7f36871e4541c2e1a5aed428e7b91f12c50d97541d21d361e3eeac",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/routes/paymentRoutes.js",
+    "originalHash": "acd1e70edfad53b281ba07b97dc007f0796f0ba734daed269ec9faf60fe83536",
+    "newHash": "6bcbdc51a972a50b4236d45702f8e52283c78a6d60592c73bd9ee9e7eb6c973e",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/routes/productManagementRoutes.js",
+    "originalHash": null,
+    "newHash": "63402f3bb5712208cc25f1a7327e41bd84eace1a393f75e7456bb5321e56875e",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/routes/reviewRoutes.js",
+    "originalHash": "0c1ff1994ef92da7462da5f9049c36d12062d5aadef79a88440afd698be00aff",
+    "newHash": "89ce7eacbc888366a5d6c365f6444f13b9b41c94888f2feda850d985306378f9",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/server.js",
+    "originalHash": "bd298acda55b24d30c434543dd339f6400f0f9535ce16ff5038be32923fd49d1",
+    "newHash": "5efbfd16b511746d319aae22f85f986a996feabdd5cac4f2cb5abad66ac93594",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/services/aiService.js",
+    "originalHash": "832ed1c89753ba6b17db70a557e72dfbc7d3bed9486c35de0085b13ec6763fa0",
+    "newHash": "98d9e03ba8d7666ac0dc71253f9f2883758d6354da927576eb11df2abbd3b73d",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/services/cartService.js",
+    "originalHash": null,
+    "newHash": "4ced94ad1465fdb19bc4255b07acc6cee0c73e6638421129af761bfd65b51c02",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/services/orderLifecycle.js",
+    "originalHash": null,
+    "newHash": "a38e2fa8d2171c21796c92ba61523ca25f9edd9908b4f6e584fefdeffe91351a",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/services/orderService.js",
+    "originalHash": "56b0c574b875378fbf230c621683666484a21c59a5499284ad9a80b7979f9711",
+    "newHash": "825bf1dd85beb3e2e3dabc2cbe0f0434dffe28fa54c09f1001b593a35e567541",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/services/productService.js",
+    "originalHash": "cdcf9e0579c60aec092242ee0ce16dbbf6c74affe462f3270c99162ef5e60afc",
+    "newHash": "cd41850f3f36cc0375ab1bf18eaeca1a8020bb7ee42b98c81c123fb9b9f09a82",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "backend/src/services/reviewService.js",
+    "originalHash": null,
+    "newHash": "42ca5ddb2a4adcd6ff6cba2a505739dde4da33969a67e51baa4c736ac41c4057",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/services/transaction.js",
+    "originalHash": null,
+    "newHash": "fe93f6aaabe3ef2b71780ee4d9c8df2b3889efab12076622501139245b5ff110",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/src/utils/businessRules.js",
+    "originalHash": null,
+    "newHash": "07566aaadba0fc803f5b9b1775e0ce9e1431c98f576d94894d71547ea3e10732",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/tests/business.test.js",
+    "originalHash": null,
+    "newHash": "8cb0c390dd650d4dad982465aa4e03853a4155ffb5437262231237cdf039e9da",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "backend/tests/integration.cjs",
+    "originalHash": null,
+    "newHash": "12a82dedf86b414061f0ef3500ac0080a03fa570f4fcde2a43ba99e7b2ce1502",
+    "oldCodeCommented": false
+  },
+  {
+    "path": "frontend/src/components/AIChat.jsx",
+    "originalHash": "8cc73f80315ad5d0239a900b064dcea260289f4dac6a1cb4e3411ec3854f8b68",
+    "newHash": "806ba4f314a93a270745aa795c357a908bcfddd586e83f088167566872e2d848",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "frontend/src/context/AuthContext.jsx",
+    "originalHash": "cbd5a1e1adce8c274c0fc40cc61faeb432a33f6b06df553eafd522f9959ef2a1",
+    "newHash": "7323609f0602eb3483b59bb88acb7105f1360ef87b8059ca80f36b0edb04414d",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "frontend/src/pages/admin/AdminInventoryPage.jsx",
+    "originalHash": "d9837c2a9d7ecb6643235a93b698776c9d5a6245fbded341a135964e28d2261d",
+    "newHash": "4b1bcd300ec8ddd6fdde7931a0bd42472700cb433ff8e522568a3255b1cddf42",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "frontend/src/pages/admin/AdminOrdersPage.jsx",
+    "originalHash": "8201d487a83578544b64b3cc6e9acbc723ede8a08c25a8ed09bf79f33e30ed44",
+    "newHash": "958778d0fa8f77e17241c09fec27b54bcda97e66c6405628de260c63f72ba13d",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "frontend/src/pages/admin/AdminProductsPage.jsx",
+    "originalHash": "fcc4c1617c7a7025c51319f8f4c39fcfb76a8981423cd30c9ecc98a6a2b22b20",
+    "newHash": "ad34bcb6697b03c9fdd79fd58a8ceb12b0a950c349c7ec968abbc93f5330e1cd",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "frontend/src/pages/admin/AdminReportsPage.jsx",
+    "originalHash": "640c6a5ba77cfdb9216edb450f691baa1eef920466afe2e805d27b17315410ee",
+    "newHash": "11600aace207e2fa1da7321cfcfb8aff7f4fef35298d46e94128c2f57f5da22f",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "frontend/src/pages/admin/AdminResourcePage.jsx",
+    "originalHash": "9829a77d05215015c0efeae45959e63044f19f146c0b801af53bc9d20a5b3112",
+    "newHash": "7aa49aef0dc1aa94fbbd824ff81d534d581fe74e6b1eca53e5b828b644d01645",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "frontend/src/pages/CheckoutPage.jsx",
+    "originalHash": "0d7a46e065adc9ae58879ab919e6731018a0326b600987b0d811442562516ebe",
+    "newHash": "359981bbe9c4dbfa2c7e0517f77c94dedda3a9f8b4ce32c64c93546ce3ce0232",
+    "oldCodeCommented": true
+  },
+  {
+    "path": "frontend/src/pages/OrderDetailPage.jsx",
+    "originalHash": "b0ed029378980fbbe0fc6a1c3d83a19d25cc0d503947352757d9f7dd0f46245d",
+    "newHash": "d9f51c35e147710b92befe6f5572d065af0b51c95e4307c7f04d994f88bcd034",
+    "oldCodeCommented": true
+  }
+]

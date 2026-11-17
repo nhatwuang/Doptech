@@ -1,0 +1,4 @@
+import {createContext,useContext,useEffect,useState} from 'react';import api from '../services/api';import {useAuth} from './AuthContext';
+const CartContext=createContext(null);
+export function CartProvider({children}){const {user,isCustomer}=useAuth();const [cart,setCart]=useState({items:[],subtotal:0});const load=async()=>{if(!isCustomer){setCart({items:[],subtotal:0});return}try{const r=await api.get('/cart');setCart(r.data.data)}catch{setCart({items:[],subtotal:0})}};useEffect(()=>{load()},[user?.UserID]);const add=async(productID,quantity=1)=>{await api.post('/cart/items',{productID,quantity});await load()};return <CartContext.Provider value={{cart,load,add,count:cart.items?.reduce((s,x)=>s+x.Quantity,0)||0}}>{children}</CartContext.Provider>}
+export const useCart=()=>useContext(CartContext);

@@ -1,0 +1,32 @@
+# node_modules/
+# backend/.env
+# frontend/dist/
+# *.log
+# .DS_Store
+
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build
+dist/
+**/dist/
+build/
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/

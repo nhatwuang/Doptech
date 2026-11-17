@@ -1,0 +1,1 @@
+export default function EmptyState({icon='bi-inbox',title='Chưa có dữ liệu',text='Không tìm thấy nội dung phù hợp.'}){return <div className="empty-state"><i className={`bi ${icon}`}/><h5>{title}</h5><p>{text}</p></div>}
